@@ -17,7 +17,7 @@ npm install timeliner [-g]
 ### From the command line:
 
 ```shell
-$ bin/timeliner https://cubelets.digital/ --count 3 --sleep=15000
+$ timeliner https://cubelets.digital/ --count 3 --sleep=15000
 # outputs
 ┌──────────────────┬───────────────────┬────────┬────────┐
 │ metric           │ mean              │ min    │ max    │
@@ -37,7 +37,7 @@ $ bin/timeliner https://cubelets.digital/ --count 3 --sleep=15000
 You can run timeliner against two websites in parallel which will return a comparison of metrics, with an indicator of whether the difference is statistically significant (p<0.05).
 
 ```shell
-$ bin/timeliner https://facebook.com https://twitter.com --count=1
+$ timeliner https://facebook.com https://twitter.com --count=1
 # outputs
 ┌──────────────────┬──────────────────────┬─────────────────────┬──────────┐
 │ metric           │ https://facebook.com │ https://twitter.com │ p < 0.05 │
