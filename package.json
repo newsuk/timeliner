@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lennym/timeliner.git"
+    "url": "git+https://github.com/newsuk/timeliner.git"
   },
   "author": "Leonard Martin <hello@lennym.co.uk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lennym/timeliner/issues"
+    "url": "https://github.com/newsuk/timeliner/issues"
   },
-  "homepage": "https://github.com/lennym/timeliner#readme",
+  "homepage": "https://github.com/newsuk/timeliner#readme",
   "dependencies": {
     "JSONStream": "^1.2.1",
     "babar": "0.1.0",
